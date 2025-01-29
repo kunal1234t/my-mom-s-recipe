@@ -1,0 +1,131 @@
+*{margin:0px;padding:0px;}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{font-family:"Lato", sans-serif; font-size:14px;}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.bg-blue{background: #a1a102}
+::-webkit-scrollbar{width:8px !important;height: 8px !important;}
+::-webkit-scrollbar-thumb{background-color: #ccc !important;}
+::-webkit-scrolbar-track{background:transparent !important;}
+.headerWrapper .top-strip{padding: 8px 0px;}
+.headerWrapper .top-strip .container p{color: #fff; font-size:12px; font-weight: 700;}
+.headerWrapper .header{width:100%; height: auto; padding:15x 0px;}
+.logoWrapper img{width: 100%; height:75%;}
+.headerWrapper .header .part2 .countryDrop{width: 150px; height: 60px; min-width: 150px;color: #000 !important ; 
+    border: 1px solid rgba(0,0,0,0.2) !important; border-radius: 7px; padding:10px 10px !important;}
+.headerWrapper .header .part2 .countryDrop{text-align: left; justify-content: flex-start !important;}
+
+.headerWrapper .header .part2 .countryDrop .lable{font-size: 12px !important; 
+    text-transform: capitalize !important; color: rgba(0,0,0,0.7) !important; line-height: 16px; }
+.headerWrapper .header .part2 .countryDrop .name{font-size:14px !important; text-transform: capitalize !important;
+     color: #a1a102 !important; font-weight: 700;line-height: 16px;}
+.headerWrapper .header .part2 .countryDrop span.ml-auto svg{opacity: 0.7;}
+
+.locationModel .MuiPaper-elevation{padding:25px; border-radius: 10px; position: relative;}
+.locationModel .countryList{margin-bottom:0px; max-height: 400px; overflow-y:scroll; overflow-x: hidden;}
+.locationModel .close_{position: absolute; top:20px; right: 20px; color: #000 !important; min-width: 40px !important; width: 40px;
+height: 40px; border-radius: 50%; }
+.locationModel .close_ svg{font-size: 22px;}
+nav .navPart1{max-width: 20%; flex: 0 0 20%;}
+nav .navPart2{max-width: 80%; flex: 0 0 80%;}
+nav .navPart1 .catWrapper{position: relative;}
+nav .navPart1 .catWrapper .sidebarNav{width: 100%; height: 400px; background:#fff;}
+.locationModel .countryList li{width: 100%; list-style: none;}
+.locationModel .countryList li button{width:100%; text-transform: capitalize !important; color: #000 !important; justify-content: flex-start !important; padding: 15px 20px;}
+.locationModel .countryList li button:hover{background: #f1f1f1;}
+.locationModel .countryList li button.active{background: #b3afaf;}
+.headerSearch{width: 60%; height: 60px; background:#f3f4f7; padding:10px; 
+    position: relative; border-radius: 10px; border: 1px solid rgba(0,0,0,0.2);}
+.headerSearch input{background: transparent !important; outline:none !important; 
+    font-size: 16px; color: rgba(0,0,0,0.8); width: 100%; height: 40px;border: 0px; padding: 0px 20px !important;} 
+.headerSearch input::-webkit-input-placeholder{color:rgba(143, 136, 136, 0.8);}
+.headerSearch button{position: absolute; top:8px; right:15px;z-index: 100;
+    min-width: 40px !important; height: 40px !important;width: 40px !important; border-radius: 50% !important; color:#000;}
+.headerSearch button svg{font-size:25px; color: rgba(143, 136, 136, 0.8);}
+.headerWrapper .header .part3 .circle{align-items: center; justify-content: center;min-width: 50px !important; height: 50px !important;width: 50px !important;
+border-radius: 50% !important; border: 1px solid rgba(0,0,0,0.1) !important; color: #000;margin-left:auto;}
+.headerWrapper .header .part3 .cicle svg{font-size:22px;}
+.headerWrapper{border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 10px;}
+.cartTab .price{font-size:18px; color: rgba(0,0,0,0.8); font-weight:700; margin-top:10px;margin-left: 10px;margin-right: 10px;}
+.cartTab button{background: #fff1ee !important;}
+.carTab button svg{ color: #ea2b0f !important;}
+.cartTab .count{position: absolute; top: -6px; right: -4px; background:#ea2b0f; border-radius: 50%; color: #fff; display: flex; width: 25px;height: 25px;}
+nav .allCatTab{background: #808e49; padding: 8px 20px !important; border-radius: 30px !important;}
+nav .allCatTab *{color: #fff;}
+nav .allCatTab:hover{background: #b6bf59;}
+nav .allCatTab .text{font-weight: 600; margin-left: 6px;margin-right: 6px;}
+nav .allCatTab .icon1{ margin-bottom: 3px;}
+nav .allCatTab .icon2{ margin-bottom: 3px;}
+nav.allCatTab .icon1 svg{font-size:20px !important}
+nav .allCatTab .icon2 svg{font-size:15px !important;}
+nav .navPart2 ul{margin-bottom: 0px;}
+nav .navPart2 ul li a{text-decoration: none;}
+nav .navPart2 ul li a button{font-size:16px; font-weight:600; text-decoration: none; color: rgba(0,0,0,0.8); text-transform: uppercase;
+display:flex; align-items: center;padding: 10px 20px; transition: all 0.2s ease-in-out;border-radius: 30px; font-family: 'Dosis';}
+nav .navPart2 ul li a svg{font-size: 20px;}
+nav .navPart2 ul li a button:hover{background: #d4e707; color: #69743c ;}
+nav .navPart2 ul li span{margin-bottom: 4px;margin-right: 4px;}
+nav .navPart2 ul li{position: relative;}
+nav .navPart2 ul li .submenu a button{width: 100%; justify-content: flex-start !important; border-radius: 0px !important;text-transform: capitalize !important;
+font-weight: 600 !important;}
+nav .navPart2 ul li .submenu {
+    position: absolute;
+    top: 100%; /* Adjusted to align directly below the button */
+    left: 0;
+    min-width: 200px; /* Restrict the width */
+    background: #fff; /* Set proper background */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+    z-index: 1000; /* Ensure it stays above other elements */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Optional: add a border for better appearance */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for a cleaner dropdown */
+    border-radius: 5px; /* Slight rounding of corners */
+    overflow: hidden; /* Prevent overflowing of child elements */
+}
+
+nav .navPart2 ul li .submenu a {
+    display: block;
+    width: 100%; /* Ensure links span the dropdown width */
+    padding: 10px 15px; /* Add consistent padding */
+    text-align: left; /* Align text to the left */
+    background: transparent; /* Reset any background bleed */
+    color: rgba(0, 0, 0, 0.8); /* Set consistent text color */
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth hover transitions */
+}
+
+nav .navPart2 ul li:hover .submenu {
+    opacity: 1; /* Make visible on hover */
+    visibility: visible;
+    top: 100%; /* Ensure it stays properly aligned */
+}
+
+/* Ensure the parent button doesn't inherit unwanted styles */
+nav .navPart2 ul li a button {
+    background: none; /* Reset background */
+    color: rgba(0, 0, 0, 0.8); /* Maintain consistent text color */
+}
+nav .navPart1 .catWrapper{position: relative;}
+nav .navPart1 .catWrapper .sidebarNav{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top:100%;
+    left: 0px;
+    border: 1px solid rgba(0,0,0,0.1)
+}
+nav .navPart1 .catWrapper .sidebarNav ul li{
+    width: 100%;
+    list-style: none;
+}
+nav .navPart1 .catWrapper .sidebarNav ul li button{
+    color: #000; 
+    width: 100%;
+    justify-content: flex-start;
+}
+nav .navPart1 .catWrapper .sidebarNav ul li button:hover{
+    background: transparent;
+}
